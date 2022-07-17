@@ -40,6 +40,7 @@ class UI {
         <td>${book.title}</td>
         <td>${book.author}</td>
         <td>${book.pages}</td>
+        <td><input type="checkbox"></td>
         <td><a href="#" class="btn btn-danger btn-sm delete">X</a></td>
         `;
 
