@@ -1,4 +1,3 @@
-// BOOK CONTRUCTOR
 
 class Book {
     constructor(title,author,pages){
@@ -8,7 +7,6 @@ class Book {
     }
 }
 
-// UI CLASS
 
 class UI {
     static displayBooks(){
@@ -68,7 +66,6 @@ class UI {
 
 
 
-//  STORAGE 
 
 class Store {
     static getBooks() {
@@ -105,13 +102,11 @@ class Store {
 
 
 
-// DISPLAYING BOOKS
 
 document.addEventListener("DOMContentLoaded", UI.displayBooks);
 
 
 
-// ADDING BOOKS
 
 document.querySelector("#book-form").addEventListener('submit',(e) => {
     e.preventDefault();
@@ -136,7 +131,6 @@ document.querySelector("#book-form").addEventListener('submit',(e) => {
 
 
 
-//  DELETE BUTTON
 
 document.querySelector("#book-list").addEventListener('click', (e) => {
     UI.deleteBook(e.target);
